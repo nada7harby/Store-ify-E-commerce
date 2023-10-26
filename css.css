@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.containe,
+.containe > div {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  height: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+form {
+  background-color: #fff;
+  padding: 82px 74px;
+  border-radius: 16px;
+}
+form label {
+  color: #fe431a;
+}
+.btn {
+  background-color: #fe431a;
+  width: 100%;
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+}
+.right {
+  background-color: #fe431a;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.left h2 {
+  font-family: "Lobster", sans-serif;
+  margin-top: -28px;
+  color: #fe431a;
+}
+input {
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.forget {
+  text-decoration: none;
+  color: #c1bdb6;
+  font-size: 15px;
+  margin-left: -18px;
+}
+.up a {
+  color: #fe431a;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icons img {
+  width: 33px;
+  height: 33px;
+  padding: 6px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 974px) {
+  body {
+    height: 120vh;
+  }
+  .left {
+    height: 40%;
+  }
+}
