@@ -1,0 +1,114 @@
+.img_logo {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.img_logo img {
+  height: 200px;
+  width: 186px;
+}
+form {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 90px 50px;
+}
+form h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+input {
+  text-align: center;
+}
+.forget {
+  text-decoration: none;
+  color: #c1bdb6;
+  font-size: 15px;
+  margin-left: -18px;
+}
+.btn a {
+  color: #fff;
+}
+.up a {
+  color: #fe431a;
+}
+.btn {
+  background-color: #fe431a;
+  width: 100%;
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+}
+.form_forget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 59px;
+  background-color: #fe431a;
+}
+.Verify .OTP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 59px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.Verify .OTP h5 {
+  color: #8c8484;
+}
+.Verify div img {
+  height: 31vh;
+}
+form label {
+  color: #fe431a;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.code {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.code div {
+  width: 20px;
+  height: 20px;
+}
+.code div input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fe431a;
+  border-radius: 5px;
+}
+.time_reset {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.time_reset span {
+  color: #fe431a;
+}
+@media (max-width: 1159px) {
+  form {
+    width: 50%;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+@media (max-width: 656px) {
+  form {
+    width: 90%;
+  }
+}
